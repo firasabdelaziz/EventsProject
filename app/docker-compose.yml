@@ -50,7 +50,7 @@ services:
     volumes:
        - springBootLogs:/var/log/spring-boot
     ports:
-      - 8090:8090
+      - 8089:8089
     networks:
       - backend-network
 networks:
